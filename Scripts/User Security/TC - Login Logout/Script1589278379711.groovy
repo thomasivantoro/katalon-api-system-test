@@ -29,9 +29,11 @@ WebUI.click(findTestObject('Object Repository/orangehrm-opensource/Page_OrangeHR
 
 WebUI.verifyElementText(findTestObject('Object Repository/orangehrm-opensource/Page_OrangeHRM/a_Welcome Admin'), 'Welcome Admin')
 
+WebUI.takeScreenshot()
+
 WebUI.click(findTestObject('Object Repository/orangehrm-opensource/Page_OrangeHRM/a_Welcome Admin'))
 
-WebUI.waitForElementClickable(findTestObject('orangehrm-opensource/Page_OrangeHRM/a_Logout'), 2)
+WebUI.waitForElementClickable(findTestObject('orangehrm-opensource/Page_OrangeHRM/a_Logout'), 5)
 
 WebUI.click(findTestObject('Object Repository/orangehrm-opensource/Page_OrangeHRM/a_Logout'))
 
